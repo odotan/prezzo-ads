@@ -7,9 +7,12 @@
 //
 
 #import "PRZMainAdvertisersTVC.h"
+@import Firebase;
+@import FirebaseDatabase;
+@import FirebaseInstanceID;
+@import FirebaseAuth;
 
 @interface PRZMainAdvertisersTVC ()
-
 @end
 
 @implementation PRZMainAdvertisersTVC
@@ -25,6 +28,25 @@
     
     
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar-icon-mini.png"]];
+    
+    // load data from Firebase
+    [self loadData];
+}
+
+-(void)loadData {
+    
+    self.ref = [[FIRDatabase database] reference];
+    
+ //   NSString *userID = [FIRAuth auth].currentUser.uid;
+    
+    [[[_ref child:@"advertisers"] child:@"id"] observeSingleEventOfType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
+        // Get user value
+     //   User *user = [[User alloc] initWithUsername:snapshot.value[@"username"]];
+        NSLog(@"textloadded: %@", snapshot);
+        // ...
+    } withCancelBlock:^(NSError * _Nonnull error) {
+        NSLog(@"%@", error.localizedDescription);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

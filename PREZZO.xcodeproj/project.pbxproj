@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A69E028B7D855C394D3BBA /* Pods_PREZZOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0A0E134907D25F548F5A68 /* Pods_PREZZOTests.framework */; };
+		2F57B6B8FA1FD5CD23E078A2 /* Pods_PREZZO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B562C1409CD0C5E45F600982 /* Pods_PREZZO.framework */; };
 		660A9F501DE369390014FD84 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F4E1DE369390014FD84 /* AppIcon60x60.png */; };
 		660A9F511DE369390014FD84 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F4F1DE369390014FD84 /* AppIcon60x60@2x.png */; };
 		660A9F541DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 660A9F531DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m */; };
@@ -26,9 +28,7 @@
 		66CDDFC01DE229D000E95236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CDDFBE1DE229D000E95236 /* LaunchScreen.storyboard */; };
 		66CDDFCB1DE229D000E95236 /* PREZZOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFCA1DE229D000E95236 /* PREZZOTests.m */; };
 		66CDDFD61DE229D000E95236 /* PREZZOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFD51DE229D000E95236 /* PREZZOUITests.m */; };
-		9EA9391AA045C9F455660AE5 /* libPods-PREZZO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E252A27672AA50228CB926 /* libPods-PREZZO.a */; };
-		AE64B17BEDA0D147DBC89419 /* libPods-PREZZOUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30A9C59C732080C69E8ECDD /* libPods-PREZZOUITests.a */; };
-		DEBA5FEDAF4A5F172CA34321 /* libPods-PREZZOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F2828EA736195F7D411736 /* libPods-PREZZOTests.a */; };
+		D766C1162B06E3D4E2BF7763 /* Pods_PREZZOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627CF6493ED09CB6903C5DC1 /* Pods_PREZZOUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F2828EA736195F7D411736 /* libPods-PREZZOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PREZZOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BE0E6E7F27639AD6BCB5C0 /* Pods-PREZZOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PREZZOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PREZZOTests/Pods-PREZZOTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B1991A40E85C00FC656A931 /* Pods-PREZZO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PREZZO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PREZZO/Pods-PREZZO.debug.xcconfig"; sourceTree = "<group>"; };
 		621D34D96557856CE092C306 /* Pods-PREZZOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PREZZOUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PREZZOUITests/Pods-PREZZOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		627CF6493ED09CB6903C5DC1 /* Pods_PREZZOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PREZZOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		660A9F4E1DE369390014FD84 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
 		660A9F4F1DE369390014FD84 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
 		660A9F521DE36C0C0014FD84 /* PRZMainAdvertisersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRZMainAdvertisersTVC.h; path = ../PRZMainAdvertisersTVC.h; sourceTree = "<group>"; };
@@ -64,6 +64,7 @@
 		660A9F631DE36EEE0014FD84 /* alert-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-icon.png"; sourceTree = "<group>"; };
 		660A9F641DE36EEE0014FD84 /* alert-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-icon@2x.png"; sourceTree = "<group>"; };
 		660A9F671DE370A70014FD84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		660A9F691DE3824D0014FD84 /* PREZZO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PREZZO.entitlements; sourceTree = "<group>"; };
 		66CDDFAA1DE229CF00E95236 /* PREZZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PREZZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDDFAE1DE229CF00E95236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66CDDFB01DE229CF00E95236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,8 +83,8 @@
 		66CDDFD51DE229D000E95236 /* PREZZOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREZZOUITests.m; sourceTree = "<group>"; };
 		66CDDFD71DE229D000E95236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74CBB6F17A25BE58B57648BD /* Pods-PREZZOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PREZZOUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PREZZOUITests/Pods-PREZZOUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A30A9C59C732080C69E8ECDD /* libPods-PREZZOUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PREZZOUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6E252A27672AA50228CB926 /* libPods-PREZZO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PREZZO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B562C1409CD0C5E45F600982 /* Pods_PREZZO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PREZZO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0A0E134907D25F548F5A68 /* Pods_PREZZOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PREZZOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0574FB8F552769480FD5BE2 /* Pods-PREZZO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PREZZO.release.xcconfig"; path = "Pods/Target Support Files/Pods-PREZZO/Pods-PREZZO.release.xcconfig"; sourceTree = "<group>"; };
 		FB6ECD1BE4C570690FD49827 /* Pods-PREZZOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PREZZOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PREZZOTests/Pods-PREZZOTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA9391AA045C9F455660AE5 /* libPods-PREZZO.a in Frameworks */,
+				2F57B6B8FA1FD5CD23E078A2 /* Pods_PREZZO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBA5FEDAF4A5F172CA34321 /* libPods-PREZZOTests.a in Frameworks */,
+				05A69E028B7D855C394D3BBA /* Pods_PREZZOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE64B17BEDA0D147DBC89419 /* libPods-PREZZOUITests.a in Frameworks */,
+				D766C1162B06E3D4E2BF7763 /* Pods_PREZZOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +120,9 @@
 		04EF7D0C239DA73277DE3CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B6E252A27672AA50228CB926 /* libPods-PREZZO.a */,
-				02F2828EA736195F7D411736 /* libPods-PREZZOTests.a */,
-				A30A9C59C732080C69E8ECDD /* libPods-PREZZOUITests.a */,
+				B562C1409CD0C5E45F600982 /* Pods_PREZZO.framework */,
+				BD0A0E134907D25F548F5A68 /* Pods_PREZZOTests.framework */,
+				627CF6493ED09CB6903C5DC1 /* Pods_PREZZOUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +165,7 @@
 		66CDDFAC1DE229CF00E95236 /* PREZZO */ = {
 			isa = PBXGroup;
 			children = (
+				660A9F691DE3824D0014FD84 /* PREZZO.entitlements */,
 				66CDDFB01DE229CF00E95236 /* AppDelegate.h */,
 				66CDDFB11DE229CF00E95236 /* AppDelegate.m */,
 				66CDDFB31DE229CF00E95236 /* ViewController.h */,
@@ -293,6 +295,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = GQJ63D4FLH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					66CDDFC51DE229D000E95236 = {
 						CreatedOnToolsVersion = 8.0;

@@ -1,15 +1,16 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '6.0'
+# platform :ios, ’9.0’
+use_frameworks!
+pod 'Firebase/Database'
+pod 'Firebase/Core’
+pod 'Firebase/Auth'
 
 target 'PREZZO' do
-pod 'Firebase/Core'
 end
 
 target 'PREZZOTests' do
-pod 'Firebase/Core'
 end
 
 target 'PREZZOUITests' do
-pod 'Firebase/Core'
 end
 

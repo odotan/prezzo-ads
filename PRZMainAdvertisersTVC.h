@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@import FirebaseDatabase;
+@import FirebaseCore;
+
 
 @interface PRZMainAdvertisersTVC : UITableViewController
+
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 
 @end

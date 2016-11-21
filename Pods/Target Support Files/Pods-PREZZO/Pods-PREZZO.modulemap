@@ -1,0 +1,6 @@
+framework module Pods_PREZZO {
+  umbrella header "Pods-PREZZO-umbrella.h"
+
+  export *
+  module * { export * }
+}
