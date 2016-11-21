@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Main" image="AppIcon60x60.png" id="Tax-3v-n2E"/>
+                    <tabBarItem key="tabBarItem" title="Main" id="Tax-3v-n2E"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AmC-51-sKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +83,4 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="AppIcon60x60.png" width="60" height="60"/>
-    </resources>
 </document>
