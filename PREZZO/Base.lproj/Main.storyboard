@@ -105,11 +105,21 @@
                             <outlet property="delegate" destination="Ecw-TL-thp" id="hUr-6o-iMx"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="5f4-rc-qHr"/>
+                    <navigationItem key="navigationItem" id="5f4-rc-qHr">
+                        <barButtonItem key="leftBarButtonItem" image="profile-icon.png" id="fYX-aW-mou">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="alert-icon.png" id="fOt-rG-kOU"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RG-c3-7H8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1815" y="-554"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="alert-icon.png" width="25" height="25"/>
+        <image name="profile-icon.png" width="25" height="25"/>
+    </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
 </document>
