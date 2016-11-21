@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66CDDFAF1DE229CF00E95236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFAE1DE229CF00E95236 /* main.m */; };
+		66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB11DE229CF00E95236 /* AppDelegate.m */; };
+		66CDDFB51DE229CF00E95236 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB41DE229CF00E95236 /* ViewController.m */; };
+		66CDDFB81DE229CF00E95236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CDDFB61DE229CF00E95236 /* Main.storyboard */; };
+		66CDDFBB1DE229D000E95236 /* PREZZO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB91DE229D000E95236 /* PREZZO.xcdatamodeld */; };
+		66CDDFBD1DE229D000E95236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CDDFBC1DE229D000E95236 /* Assets.xcassets */; };
+		66CDDFC01DE229D000E95236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CDDFBE1DE229D000E95236 /* LaunchScreen.storyboard */; };
+		66CDDFCB1DE229D000E95236 /* PREZZOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFCA1DE229D000E95236 /* PREZZOTests.m */; };
+		66CDDFD61DE229D000E95236 /* PREZZOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFD51DE229D000E95236 /* PREZZOUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CDDFC71DE229D000E95236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CDDFA21DE229CF00E95236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CDDFA91DE229CF00E95236;
+			remoteInfo = PREZZO;
+		};
+		66CDDFD21DE229D000E95236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CDDFA21DE229CF00E95236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CDDFA91DE229CF00E95236;
+			remoteInfo = PREZZO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66CDDFAA1DE229CF00E95236 /* PREZZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PREZZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CDDFAE1DE229CF00E95236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66CDDFB01DE229CF00E95236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66CDDFB11DE229CF00E95236 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66CDDFB31DE229CF00E95236 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66CDDFB41DE229CF00E95236 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66CDDFB71DE229CF00E95236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66CDDFBA1DE229D000E95236 /* PREZZO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PREZZO.xcdatamodel; sourceTree = "<group>"; };
+		66CDDFBC1DE229D000E95236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66CDDFBF1DE229D000E95236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66CDDFC11DE229D000E95236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CDDFC61DE229D000E95236 /* PREZZOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PREZZOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CDDFCA1DE229D000E95236 /* PREZZOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREZZOTests.m; sourceTree = "<group>"; };
+		66CDDFCC1DE229D000E95236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CDDFD11DE229D000E95236 /* PREZZOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PREZZOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CDDFD51DE229D000E95236 /* PREZZOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREZZOUITests.m; sourceTree = "<group>"; };
+		66CDDFD71DE229D000E95236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CDDFA71DE229CF00E95236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDDFC31DE229D000E95236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDDFCE1DE229D000E95236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66CDDFA11DE229CF00E95236 = {
+			isa = PBXGroup;
+			children = (
+				66CDDFAC1DE229CF00E95236 /* PREZZO */,
+				66CDDFC91DE229D000E95236 /* PREZZOTests */,
+				66CDDFD41DE229D000E95236 /* PREZZOUITests */,
+				66CDDFAB1DE229CF00E95236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66CDDFAB1DE229CF00E95236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CDDFAA1DE229CF00E95236 /* PREZZO.app */,
+				66CDDFC61DE229D000E95236 /* PREZZOTests.xctest */,
+				66CDDFD11DE229D000E95236 /* PREZZOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CDDFAC1DE229CF00E95236 /* PREZZO */ = {
+			isa = PBXGroup;
+			children = (
+				66CDDFB01DE229CF00E95236 /* AppDelegate.h */,
+				66CDDFB11DE229CF00E95236 /* AppDelegate.m */,
+				66CDDFB31DE229CF00E95236 /* ViewController.h */,
+				66CDDFB41DE229CF00E95236 /* ViewController.m */,
+				66CDDFB61DE229CF00E95236 /* Main.storyboard */,
+				66CDDFBC1DE229D000E95236 /* Assets.xcassets */,
+				66CDDFBE1DE229D000E95236 /* LaunchScreen.storyboard */,
+				66CDDFC11DE229D000E95236 /* Info.plist */,
+				66CDDFB91DE229D000E95236 /* PREZZO.xcdatamodeld */,
+				66CDDFAD1DE229CF00E95236 /* Supporting Files */,
+			);
+			path = PREZZO;
+			sourceTree = "<group>";
+		};
+		66CDDFAD1DE229CF00E95236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66CDDFAE1DE229CF00E95236 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66CDDFC91DE229D000E95236 /* PREZZOTests */ = {
+			isa = PBXGroup;
+			children = (
+				66CDDFCA1DE229D000E95236 /* PREZZOTests.m */,
+				66CDDFCC1DE229D000E95236 /* Info.plist */,
+			);
+			path = PREZZOTests;
+			sourceTree = "<group>";
+		};
+		66CDDFD41DE229D000E95236 /* PREZZOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66CDDFD51DE229D000E95236 /* PREZZOUITests.m */,
+				66CDDFD71DE229D000E95236 /* Info.plist */,
+			);
+			path = PREZZOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CDDFA91DE229CF00E95236 /* PREZZO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CDDFDA1DE229D000E95236 /* Build configuration list for PBXNativeTarget "PREZZO" */;
+			buildPhases = (
+				66CDDFA61DE229CF00E95236 /* Sources */,
+				66CDDFA71DE229CF00E95236 /* Frameworks */,
+				66CDDFA81DE229CF00E95236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PREZZO;
+			productName = PREZZO;
+			productReference = 66CDDFAA1DE229CF00E95236 /* PREZZO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CDDFC51DE229D000E95236 /* PREZZOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CDDFDD1DE229D000E95236 /* Build configuration list for PBXNativeTarget "PREZZOTests" */;
+			buildPhases = (
+				66CDDFC21DE229D000E95236 /* Sources */,
+				66CDDFC31DE229D000E95236 /* Frameworks */,
+				66CDDFC41DE229D000E95236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CDDFC81DE229D000E95236 /* PBXTargetDependency */,
+			);
+			name = PREZZOTests;
+			productName = PREZZOTests;
+			productReference = 66CDDFC61DE229D000E95236 /* PREZZOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66CDDFD01DE229D000E95236 /* PREZZOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CDDFE01DE229D000E95236 /* Build configuration list for PBXNativeTarget "PREZZOUITests" */;
+			buildPhases = (
+				66CDDFCD1DE229D000E95236 /* Sources */,
+				66CDDFCE1DE229D000E95236 /* Frameworks */,
+				66CDDFCF1DE229D000E95236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CDDFD31DE229D000E95236 /* PBXTargetDependency */,
+			);
+			name = PREZZOUITests;
+			productName = PREZZOUITests;
+			productReference = 66CDDFD11DE229D000E95236 /* PREZZOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CDDFA21DE229CF00E95236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Itay Pincas";
+				TargetAttributes = {
+					66CDDFA91DE229CF00E95236 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GQJ63D4FLH;
+						ProvisioningStyle = Automatic;
+					};
+					66CDDFC51DE229D000E95236 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GQJ63D4FLH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66CDDFA91DE229CF00E95236;
+					};
+					66CDDFD01DE229D000E95236 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GQJ63D4FLH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66CDDFA91DE229CF00E95236;
+					};
+				};
+			};
+			buildConfigurationList = 66CDDFA51DE229CF00E95236 /* Build configuration list for PBXProject "PREZZO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66CDDFA11DE229CF00E95236;
+			productRefGroup = 66CDDFAB1DE229CF00E95236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CDDFA91DE229CF00E95236 /* PREZZO */,
+				66CDDFC51DE229D000E95236 /* PREZZOTests */,
+				66CDDFD01DE229D000E95236 /* PREZZOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CDDFA81DE229CF00E95236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDDFC01DE229D000E95236 /* LaunchScreen.storyboard in Resources */,
+				66CDDFBD1DE229D000E95236 /* Assets.xcassets in Resources */,
+				66CDDFB81DE229CF00E95236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDDFC41DE229D000E95236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDDFCF1DE229D000E95236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CDDFA61DE229CF00E95236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDDFB51DE229CF00E95236 /* ViewController.m in Sources */,
+				66CDDFBB1DE229D000E95236 /* PREZZO.xcdatamodeld in Sources */,
+				66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */,
+				66CDDFAF1DE229CF00E95236 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDDFC21DE229D000E95236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDDFCB1DE229D000E95236 /* PREZZOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDDFCD1DE229D000E95236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDDFD61DE229D000E95236 /* PREZZOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CDDFC81DE229D000E95236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CDDFA91DE229CF00E95236 /* PREZZO */;
+			targetProxy = 66CDDFC71DE229D000E95236 /* PBXContainerItemProxy */;
+		};
+		66CDDFD31DE229D000E95236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CDDFA91DE229CF00E95236 /* PREZZO */;
+			targetProxy = 66CDDFD21DE229D000E95236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66CDDFB61DE229CF00E95236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CDDFB71DE229CF00E95236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66CDDFBE1DE229D000E95236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CDDFBF1DE229D000E95236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66CDDFD81DE229D000E95236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66CDDFD91DE229D000E95236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66CDDFDB1DE229D000E95236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GQJ63D4FLH;
+				INFOPLIST_FILE = PREZZO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66CDDFDC1DE229D000E95236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GQJ63D4FLH;
+				INFOPLIST_FILE = PREZZO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66CDDFDE1DE229D000E95236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GQJ63D4FLH;
+				INFOPLIST_FILE = PREZZOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PREZZO.app/PREZZO";
+			};
+			name = Debug;
+		};
+		66CDDFDF1DE229D000E95236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GQJ63D4FLH;
+				INFOPLIST_FILE = PREZZOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PREZZO.app/PREZZO";
+			};
+			name = Release;
+		};
+		66CDDFE11DE229D000E95236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GQJ63D4FLH;
+				INFOPLIST_FILE = PREZZOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PREZZO;
+			};
+			name = Debug;
+		};
+		66CDDFE21DE229D000E95236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GQJ63D4FLH;
+				INFOPLIST_FILE = PREZZOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PREZZO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CDDFA51DE229CF00E95236 /* Build configuration list for PBXProject "PREZZO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDDFD81DE229D000E95236 /* Debug */,
+				66CDDFD91DE229D000E95236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CDDFDA1DE229D000E95236 /* Build configuration list for PBXNativeTarget "PREZZO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDDFDB1DE229D000E95236 /* Debug */,
+				66CDDFDC1DE229D000E95236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66CDDFDD1DE229D000E95236 /* Build configuration list for PBXNativeTarget "PREZZOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDDFDE1DE229D000E95236 /* Debug */,
+				66CDDFDF1DE229D000E95236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66CDDFE01DE229D000E95236 /* Build configuration list for PBXNativeTarget "PREZZOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDDFE11DE229D000E95236 /* Debug */,
+				66CDDFE21DE229D000E95236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66CDDFB91DE229D000E95236 /* PREZZO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66CDDFBA1DE229D000E95236 /* PREZZO.xcdatamodel */,
+			);
+			currentVersion = 66CDDFBA1DE229D000E95236 /* PREZZO.xcdatamodel */;
+			path = PREZZO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66CDDFA21DE229CF00E95236 /* Project object */;
+}
