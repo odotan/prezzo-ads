@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		660A9F501DE369390014FD84 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F4E1DE369390014FD84 /* AppIcon60x60.png */; };
 		660A9F511DE369390014FD84 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F4F1DE369390014FD84 /* AppIcon60x60@2x.png */; };
+		660A9F541DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 660A9F531DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m */; };
+		660A9F5D1DE36DD40014FD84 /* navbar-icon-mini.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F5B1DE36DD40014FD84 /* navbar-icon-mini.png */; };
+		660A9F5E1DE36DD40014FD84 /* navbar-icon-mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F5C1DE36DD40014FD84 /* navbar-icon-mini@2x.png */; };
 		66CDDFAF1DE229CF00E95236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFAE1DE229CF00E95236 /* main.m */; };
 		66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB11DE229CF00E95236 /* AppDelegate.m */; };
 		66CDDFB51DE229CF00E95236 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB41DE229CF00E95236 /* ViewController.m */; };
@@ -40,6 +43,10 @@
 /* Begin PBXFileReference section */
 		660A9F4E1DE369390014FD84 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
 		660A9F4F1DE369390014FD84 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		660A9F521DE36C0C0014FD84 /* PRZMainAdvertisersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRZMainAdvertisersTVC.h; path = ../PRZMainAdvertisersTVC.h; sourceTree = "<group>"; };
+		660A9F531DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRZMainAdvertisersTVC.m; path = ../PRZMainAdvertisersTVC.m; sourceTree = "<group>"; };
+		660A9F5B1DE36DD40014FD84 /* navbar-icon-mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-icon-mini.png"; sourceTree = "<group>"; };
+		660A9F5C1DE36DD40014FD84 /* navbar-icon-mini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-icon-mini@2x.png"; sourceTree = "<group>"; };
 		66CDDFAA1DE229CF00E95236 /* PREZZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PREZZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDDFAE1DE229CF00E95236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66CDDFB01DE229CF00E95236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +119,8 @@
 				66CDDFB31DE229CF00E95236 /* ViewController.h */,
 				66CDDFB41DE229CF00E95236 /* ViewController.m */,
 				66CDDFB61DE229CF00E95236 /* Main.storyboard */,
+				660A9F521DE36C0C0014FD84 /* PRZMainAdvertisersTVC.h */,
+				660A9F531DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m */,
 				66CDDFBC1DE229D000E95236 /* Assets.xcassets */,
 				66CDDFBE1DE229D000E95236 /* LaunchScreen.storyboard */,
 				66CDDFC11DE229D000E95236 /* Info.plist */,
@@ -124,6 +133,8 @@
 		66CDDFAD1DE229CF00E95236 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				660A9F5B1DE36DD40014FD84 /* navbar-icon-mini.png */,
+				660A9F5C1DE36DD40014FD84 /* navbar-icon-mini@2x.png */,
 				660A9F4E1DE369390014FD84 /* AppIcon60x60.png */,
 				660A9F4F1DE369390014FD84 /* AppIcon60x60@2x.png */,
 				66CDDFAE1DE229CF00E95236 /* main.m */,
@@ -261,7 +272,9 @@
 				660A9F511DE369390014FD84 /* AppIcon60x60@2x.png in Resources */,
 				66CDDFC01DE229D000E95236 /* LaunchScreen.storyboard in Resources */,
 				660A9F501DE369390014FD84 /* AppIcon60x60.png in Resources */,
+				660A9F5D1DE36DD40014FD84 /* navbar-icon-mini.png in Resources */,
 				66CDDFBD1DE229D000E95236 /* Assets.xcassets in Resources */,
+				660A9F5E1DE36DD40014FD84 /* navbar-icon-mini@2x.png in Resources */,
 				66CDDFB81DE229CF00E95236 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +302,7 @@
 			files = (
 				66CDDFB51DE229CF00E95236 /* ViewController.m in Sources */,
 				66CDDFBB1DE229D000E95236 /* PREZZO.xcdatamodeld in Sources */,
+				660A9F541DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m in Sources */,
 				66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */,
 				66CDDFAF1DE229CF00E95236 /* main.m in Sources */,
 			);
