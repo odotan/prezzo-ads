@@ -8,7 +8,10 @@
 
 #import "PRZMainAdvertisersTVC.h"
 #import "PRZMainAdvertiserCell.h"
-
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
+#import <AFNetworking/AFURLRequestSerialization.h>
+//AFHTTPRequestOperationManager
 @interface PRZMainAdvertisersTVC () {
     
     NSXMLParser *parser;
@@ -190,12 +193,10 @@
 
 -(void)loadJSONFromServer{
     NSLog(@"hello");
-    NSMutableURLRequest *httpRequest=[[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://firebasestorage.googleapis.com/v0/b/prezzo-4e452.appspot.com/o/advertisers.json?alt=media&token=eb70376a-5b14-48e2-acef-c1e2fca410db"]];
+    NSMutableURLRequest *httpRequest=[[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://itaypincas7.ipage.com/advertisers.json"]];
     
     [httpRequest setCachePolicy:NSURLRequestReloadIgnoringCacheData];
     [httpRequest setHTTPMethod:@"GET"];
-    NSString *hostURL = @"https://firebasestorage.googleapis.com";
-    [httpRequest setAllowsAnyHTTPSCertificate:YES forHost:hostURL];
 
     
     NSURLConnection *con=[[NSURLConnection alloc] initWithRequest:httpRequest delegate:self];
