@@ -19,6 +19,7 @@
 		660A9F651DE36EEE0014FD84 /* alert-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F631DE36EEE0014FD84 /* alert-icon.png */; };
 		660A9F661DE36EEE0014FD84 /* alert-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F641DE36EEE0014FD84 /* alert-icon@2x.png */; };
 		660A9F681DE370A70014FD84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F671DE370A70014FD84 /* GoogleService-Info.plist */; };
+		66B68E401DE495F100CE5265 /* PRZMainAdvertiserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */; };
 		66CDDFAF1DE229CF00E95236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFAE1DE229CF00E95236 /* main.m */; };
 		66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB11DE229CF00E95236 /* AppDelegate.m */; };
 		66CDDFB51DE229CF00E95236 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB41DE229CF00E95236 /* ViewController.m */; };
@@ -65,6 +66,9 @@
 		660A9F641DE36EEE0014FD84 /* alert-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-icon@2x.png"; sourceTree = "<group>"; };
 		660A9F671DE370A70014FD84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		660A9F691DE3824D0014FD84 /* PREZZO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PREZZO.entitlements; sourceTree = "<group>"; };
+		66B68E391DE490AA00CE5265 /* PREZZO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PREZZO-Bridging-Header.h"; sourceTree = "<group>"; };
+		66B68E3E1DE495F100CE5265 /* PRZMainAdvertiserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRZMainAdvertiserCell.h; sourceTree = "<group>"; };
+		66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRZMainAdvertiserCell.m; sourceTree = "<group>"; };
 		66CDDFAA1DE229CF00E95236 /* PREZZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PREZZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDDFAE1DE229CF00E95236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66CDDFB01DE229CF00E95236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -173,11 +177,14 @@
 				66CDDFB61DE229CF00E95236 /* Main.storyboard */,
 				660A9F521DE36C0C0014FD84 /* PRZMainAdvertisersTVC.h */,
 				660A9F531DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m */,
+				66B68E3E1DE495F100CE5265 /* PRZMainAdvertiserCell.h */,
+				66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */,
 				66CDDFBC1DE229D000E95236 /* Assets.xcassets */,
 				66CDDFBE1DE229D000E95236 /* LaunchScreen.storyboard */,
 				66CDDFC11DE229D000E95236 /* Info.plist */,
 				66CDDFB91DE229D000E95236 /* PREZZO.xcdatamodeld */,
 				66CDDFAD1DE229CF00E95236 /* Supporting Files */,
+				66B68E391DE490AA00CE5265 /* PREZZO-Bridging-Header.h */,
 			);
 			path = PREZZO;
 			sourceTree = "<group>";
@@ -294,6 +301,7 @@
 					66CDDFA91DE229CF00E95236 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = GQJ63D4FLH;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -521,6 +529,7 @@
 				66CDDFBB1DE229D000E95236 /* PREZZO.xcdatamodeld in Sources */,
 				660A9F541DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m in Sources */,
 				66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */,
+				66B68E401DE495F100CE5265 /* PRZMainAdvertiserCell.m in Sources */,
 				66CDDFAF1DE229CF00E95236 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,11 +678,15 @@
 			baseConfigurationReference = 4B1991A40E85C00FC656A931 /* Pods-PREZZO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GQJ63D4FLH;
 				INFOPLIST_FILE = PREZZO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PREZZO/PREZZO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -682,11 +695,14 @@
 			baseConfigurationReference = D0574FB8F552769480FD5BE2 /* Pods-PREZZO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GQJ63D4FLH;
 				INFOPLIST_FILE = PREZZO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Itay-Pincas.PREZZO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PREZZO/PREZZO-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

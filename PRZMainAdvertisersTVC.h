@@ -12,7 +12,7 @@
 
 
 @interface PRZMainAdvertisersTVC : UITableViewController
-
-@property (strong, nonatomic) FIRDatabaseReference *ref;
++ (BOOL)allowsAnyHTTPSCertificateForHost:(NSString*)host;
++ (void)setAllowsAnyHTTPSCertificate:(BOOL)allow forHost:(NSString*)host;
 
 @end

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D30D2D5BEB11BCF25B6A45ED87E7002</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>991E03E654433D77FCFC6E7C762D64E4</key>
+		<key>250D0538D289B1DBCFF46EA3B2D413C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>456A5CE895FAD4B067FAF8F19A5D4965</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>861184DE51EF505CCD1B9899199D1BD1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E9BC78E6ECDB7C6A933F1D353CF28E4B</key>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

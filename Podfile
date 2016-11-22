@@ -4,6 +4,7 @@ use_frameworks!
 pod 'Firebase/Database'
 pod 'Firebase/Core’
 pod 'Firebase/Auth'
+pod 'AFNetworking', '~> 3.0'
 
 target 'PREZZO' do
 end

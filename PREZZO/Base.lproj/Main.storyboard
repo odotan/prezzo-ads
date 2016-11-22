@@ -50,12 +50,13 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vhF-6e-hGP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="FKg-Tk-0U6">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="GxN-Ll-rEi"/>
                         <segue destination="QPt-L5-tij" kind="relationship" relationship="viewControllers" id="Mhk-TC-vmO"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="GxN-Ll-rEi"/>
                         <segue destination="6gc-dY-42f" kind="relationship" relationship="viewControllers" id="UAf-fp-BKh"/>
                     </connections>
                 </tabBarController>
@@ -91,19 +92,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="UX0-28-c5b">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="UX0-28-c5b" customClass="PRZMainAdvertiserCell">
                                 <rect key="frame" x="0.0" y="92" width="375" height="82"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UX0-28-c5b" id="WfO-hg-kcC">
-                                    <frame key="frameInset" width="375" height="81"/>
+                                    <frame key="frameInset" width="375" height="82"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AtN-Km-6b4">
-                                            <frame key="frameInset" width="375" height="80"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AtN-Km-6b4"/>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="AtN-Km-6b4" firstAttribute="leading" secondItem="WfO-hg-kcC" secondAttribute="leading" id="cZu-el-08T"/>
+                                        <constraint firstAttribute="trailing" secondItem="AtN-Km-6b4" secondAttribute="trailing" id="j0Y-nh-wew"/>
+                                        <constraint firstItem="AtN-Km-6b4" firstAttribute="top" secondItem="WfO-hg-kcC" secondAttribute="top" id="omm-Oi-ma9"/>
+                                        <constraint firstItem="AtN-Km-6b4" firstAttribute="centerY" secondItem="WfO-hg-kcC" secondAttribute="centerY" id="sDf-lO-dcJ"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bannerImage" destination="AtN-Km-6b4" id="agc-ya-aC0"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
