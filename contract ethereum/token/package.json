@@ -1,0 +1,15 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereum-sandbox-workbench": "^1.0.0-beta9",
+    "request": "^2.75.0"
+  }
+}
