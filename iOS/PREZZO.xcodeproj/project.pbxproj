@@ -19,6 +19,7 @@
 		660A9F651DE36EEE0014FD84 /* alert-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F631DE36EEE0014FD84 /* alert-icon.png */; };
 		660A9F661DE36EEE0014FD84 /* alert-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F641DE36EEE0014FD84 /* alert-icon@2x.png */; };
 		660A9F681DE370A70014FD84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 660A9F671DE370A70014FD84 /* GoogleService-Info.plist */; };
+		6664BFEF1DEB488F00C22CFC /* notifications-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6664BFEE1DEB488F00C22CFC /* notifications-icon.png */; };
 		66B68E401DE495F100CE5265 /* PRZMainAdvertiserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */; };
 		66CDDFAF1DE229CF00E95236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFAE1DE229CF00E95236 /* main.m */; };
 		66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB11DE229CF00E95236 /* AppDelegate.m */; };
@@ -66,6 +67,7 @@
 		660A9F641DE36EEE0014FD84 /* alert-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-icon@2x.png"; sourceTree = "<group>"; };
 		660A9F671DE370A70014FD84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		660A9F691DE3824D0014FD84 /* PREZZO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PREZZO.entitlements; sourceTree = "<group>"; };
+		6664BFEE1DEB488F00C22CFC /* notifications-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications-icon.png"; sourceTree = "<group>"; };
 		66B68E391DE490AA00CE5265 /* PREZZO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PREZZO-Bridging-Header.h"; sourceTree = "<group>"; };
 		66B68E3E1DE495F100CE5265 /* PRZMainAdvertiserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRZMainAdvertiserCell.h; sourceTree = "<group>"; };
 		66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRZMainAdvertiserCell.m; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		66CDDFAD1DE229CF00E95236 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6664BFEE1DEB488F00C22CFC /* notifications-icon.png */,
 				660A9F631DE36EEE0014FD84 /* alert-icon.png */,
 				660A9F641DE36EEE0014FD84 /* alert-icon@2x.png */,
 				660A9F5F1DE36E540014FD84 /* profile-icon.png */,
@@ -359,6 +362,7 @@
 				660A9F681DE370A70014FD84 /* GoogleService-Info.plist in Resources */,
 				660A9F621DE36E540014FD84 /* profile-icon@2x.png in Resources */,
 				66CDDFBD1DE229D000E95236 /* Assets.xcassets in Resources */,
+				6664BFEF1DEB488F00C22CFC /* notifications-icon.png in Resources */,
 				660A9F661DE36EEE0014FD84 /* alert-icon@2x.png in Resources */,
 				660A9F5E1DE36DD40014FD84 /* navbar-icon-mini@2x.png in Resources */,
 				66CDDFB81DE229CF00E95236 /* Main.storyboard in Resources */,
