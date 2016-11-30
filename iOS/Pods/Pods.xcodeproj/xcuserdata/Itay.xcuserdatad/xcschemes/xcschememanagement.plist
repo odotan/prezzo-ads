@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JBParallaxCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-PREZZO.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -36,37 +41,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>250D0538D289B1DBCFF46EA3B2D413C5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>456A5CE895FAD4B067FAF8F19A5D4965</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>861184DE51EF505CCD1B9899199D1BD1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

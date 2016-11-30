@@ -53,12 +53,14 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.0)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.0)
   - GTMSessionFetcher/Core (1.1.7)
+  - JBParallaxCell (0.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - JBParallaxCell
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -72,7 +74,8 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
   GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+  JBParallaxCell: a3ffc544212efbf1e8923cb780706439b2126ef9
 
-PODFILE CHECKSUM: e632ca3df50b3dbe54a937c7b8ab9cdd3359d5fc
+PODFILE CHECKSUM: c40b01159a9cf5a8b96d41553f2c908095788701
 
 COCOAPODS: 1.1.1

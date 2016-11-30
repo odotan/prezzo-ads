@@ -1,0 +1,6 @@
+framework module JBParallaxCell {
+  umbrella header "JBParallaxCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

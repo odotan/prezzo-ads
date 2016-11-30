@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A6086A25FF85FCCA16DB90DE46FD14A6'
-               BlueprintName = 'Pods-PREZZOTests'
+               BlueprintIdentifier = '1A8E32A6AFF3D37CB92D295B3FB43662'
+               BlueprintName = 'JBParallaxCell'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-PREZZOTests.framework'>
+               BuildableName = 'JBParallaxCell.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

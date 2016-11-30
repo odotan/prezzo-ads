@@ -5,6 +5,7 @@ pod 'Firebase/Database'
 pod 'Firebase/Core’
 pod 'Firebase/Auth'
 pod 'AFNetworking', '~> 3.0'
+pod 'JBParallaxCell'
 
 target 'PREZZO' do
 end
