@@ -20,6 +20,7 @@
 		6691A5BA1DF3000C00B9861A /* alert-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6691A5B61DF3000C00B9861A /* alert-icon@2x.png */; };
 		6691A5BB1DF3000C00B9861A /* profile-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6691A5B71DF3000C00B9861A /* profile-icon.png */; };
 		6691A5BC1DF3000C00B9861A /* profile-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6691A5B81DF3000C00B9861A /* profile-icon@2x.png */; };
+		6691A5BF1DF3011D00B9861A /* PRZAdvertiserTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6691A5BE1DF3011D00B9861A /* PRZAdvertiserTVC.m */; };
 		66B68E401DE495F100CE5265 /* PRZMainAdvertiserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */; };
 		66CDDFAF1DE229CF00E95236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFAE1DE229CF00E95236 /* main.m */; };
 		66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDDFB11DE229CF00E95236 /* AppDelegate.m */; };
@@ -68,6 +69,8 @@
 		6691A5B61DF3000C00B9861A /* alert-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alert-icon@2x.png"; path = "../../../../Dropbox/PREZZO/Personal/Itay Pincas/alert-icon@2x.png"; sourceTree = "<group>"; };
 		6691A5B71DF3000C00B9861A /* profile-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-icon.png"; path = "../../../../Dropbox/PREZZO/Personal/Itay Pincas/profile-icon.png"; sourceTree = "<group>"; };
 		6691A5B81DF3000C00B9861A /* profile-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-icon@2x.png"; path = "../../../../Dropbox/PREZZO/Personal/Itay Pincas/profile-icon@2x.png"; sourceTree = "<group>"; };
+		6691A5BD1DF3011D00B9861A /* PRZAdvertiserTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRZAdvertiserTVC.h; sourceTree = "<group>"; };
+		6691A5BE1DF3011D00B9861A /* PRZAdvertiserTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRZAdvertiserTVC.m; sourceTree = "<group>"; };
 		66B68E391DE490AA00CE5265 /* PREZZO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PREZZO-Bridging-Header.h"; sourceTree = "<group>"; };
 		66B68E3E1DE495F100CE5265 /* PRZMainAdvertiserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRZMainAdvertiserCell.h; sourceTree = "<group>"; };
 		66B68E3F1DE495F100CE5265 /* PRZMainAdvertiserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRZMainAdvertiserCell.m; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				66CDDFB31DE229CF00E95236 /* ViewController.h */,
 				66CDDFB41DE229CF00E95236 /* ViewController.m */,
 				66CDDFB61DE229CF00E95236 /* Main.storyboard */,
+				6691A5BD1DF3011D00B9861A /* PRZAdvertiserTVC.h */,
+				6691A5BE1DF3011D00B9861A /* PRZAdvertiserTVC.m */,
 				660A9F521DE36C0C0014FD84 /* PRZMainAdvertisersTVC.h */,
 				660A9F531DE36C0C0014FD84 /* PRZMainAdvertisersTVC.m */,
 				66B68E3E1DE495F100CE5265 /* PRZMainAdvertiserCell.h */,
@@ -535,6 +540,7 @@
 				66CDDFB21DE229CF00E95236 /* AppDelegate.m in Sources */,
 				66B68E401DE495F100CE5265 /* PRZMainAdvertiserCell.m in Sources */,
 				66CDDFAF1DE229CF00E95236 /* main.m in Sources */,
+				6691A5BF1DF3011D00B9861A /* PRZAdvertiserTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

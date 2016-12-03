@@ -93,11 +93,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="82" id="UX0-28-c5b" customClass="PRZMainAdvertiserCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="UX0-28-c5b" customClass="PRZMainAdvertiserCell">
                                 <rect key="frame" x="0.0" y="92" width="375" height="82"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UX0-28-c5b" id="WfO-hg-kcC">
-                                    <frame key="frameInset" width="342" height="82"/>
+                                    <frame key="frameInset" width="375" height="81"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AtN-Km-6b4"/>
@@ -111,6 +111,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="bannerImage" destination="AtN-Km-6b4" id="agc-ya-aC0"/>
+                                    <segue destination="Nk7-g9-ybs" kind="push" trigger="accessoryAction" id="9Q3-6L-fIB"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -130,42 +131,10 @@
             </objects>
             <point key="canvasLocation" x="1813.5999999999999" y="-554.57271364317842"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="cmq-gK-mUV">
-            <objects>
-                <viewController id="C6M-2c-sgB" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bUb-ZE-tjA"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZUP-1p-Tgu"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UZA-52-O9c">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaL-P6-eno">
-                                <frame key="frameInset" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Business Title" id="qDg-gn-ozw"/>
-                                </items>
-                            </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DEi-WM-CLC">
-                                <frame key="frameInset" minY="44" width="375" height="399"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="gAf-Jy-doc"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Daw-Vc-I9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2504.8000000000002" y="-555.47226386806597"/>
-        </scene>
         <!--Business Title-->
         <scene sceneID="1ub-c5-Pp9">
             <objects>
-                <tableViewController id="Nk7-g9-ybs" sceneMemberID="viewController">
+                <tableViewController id="Nk7-g9-ybs" customClass="PRZAdvertiserTVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6Uh-gH-iEt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="680"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,6 +202,14 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bns-dC-tNI">
+                                                    <frame key="frameInset" width="375" height="116"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.30395081639999999" green="0.69487786289999998" blue="0.79936558010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <connections>
+                                                        <action selector="remindMeToggle:" destination="Nk7-g9-ybs" eventType="touchUpInside" id="RFR-Sp-4Ml"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.30395081639289856" green="0.69487786293029785" blue="0.7993655800819397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
@@ -284,28 +261,14 @@
                     <navigationItem key="navigationItem" title="Business Title" id="lnq-XX-HLu"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="680"/>
+                    <connections>
+                        <outlet property="advertiserCoverImageView" destination="yNt-uF-g7s" id="0aM-tQ-CLo"/>
+                        <outlet property="remindMeToggleButton" destination="Bns-dC-tNI" id="Gr0-YQ-P7m"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4e-VZ-5He" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4104.8000000000002" y="-554.1229385307347"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="IQC-wD-UJM">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9LE-2b-aDo" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AhI-3o-VCo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Nk7-g9-ybs" kind="relationship" relationship="rootViewController" id="lQY-53-9Nl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BOW-BF-tSl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3165.5999999999999" y="-554.57271364317842"/>
+            <point key="canvasLocation" x="2552.8000000000002" y="-554.1229385307347"/>
         </scene>
         <!--Business Title-->
         <scene sceneID="ulI-kq-npN">
