@@ -1,0 +1,12 @@
+<img class="maxw" src="graphics/banners/prezzo-AMPM-small.png" alt="">
+<div class="product" ng-swipe-left="next()" ng-swipe-right="prev()" >
+    <div class="product-image" ng-click="go_to_buisness_page()">
+        <img class="maxw" src="{{ products[currentIndex].img_src }}" alt="">
+    </div>
+    <div class="spacer"></div>
+    <div class="product-price">
+        <span>{{ products[currentIndex].price }}</span>
+    </div>
+    <div class="spacer-thin"></div>
+    <subscribe-button product=products[currentIndex]></subscribe-button>
+</div>
