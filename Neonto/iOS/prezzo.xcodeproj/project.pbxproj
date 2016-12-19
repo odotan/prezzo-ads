@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A65E02E18A3DF0000E413F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A65E02D18A3DF0000E413F6 /* Foundation.framework */; };
+		5A65E03018A3DF0000E413F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A65E02F18A3DF0000E413F6 /* CoreGraphics.framework */; };
+		5A65E03218A3DF0000E413F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A65E03118A3DF0000E413F6 /* UIKit.framework */; };
+		5A65E03818A3DF0000E413F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A65E03618A3DF0000E413F6 /* InfoPlist.strings */; };
+		5A65E03A18A3DF0000E413F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E03918A3DF0000E413F6 /* main.m */; };
+		5A65E04018A3DF0000E413F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A65E03F18A3DF0000E413F6 /* Images.xcassets */; };
+5F0000010DE07715BC1ADD9D /* PREDataSheetListData1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E05D0DE07715BC1ADD9D /* PREDataSheetListData1.m */; };
+5F0000020DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E05F0DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.m */; };
+5F0000030DE07715BC1ADD9D /* PREAdvertiserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0610DE07715BC1ADD9D /* PREAdvertiserImageView.m */; };
+5F0000040DE07715BC1ADD9D /* PREAdvertiserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0630DE07715BC1ADD9D /* PREAdvertiserViewController.m */; };
+5F0000050DE07715BC1ADD9D /* PREListItem1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0650DE07715BC1ADD9D /* PREListItem1ViewController.m */; };
+5F0000060DE07715BC1ADD9D /* PREMeBackgroundShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0670DE07715BC1ADD9D /* PREMeBackgroundShapeView.m */; };
+5F0000070DE07715BC1ADD9D /* PREMePrezzologofullringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0690DE07715BC1ADD9D /* PREMePrezzologofullringView.m */; };
+5F0000080DE07715BC1ADD9D /* PREMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E06B0DE07715BC1ADD9D /* PREMeViewController.m */; };
+5F0000090DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E06D0DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.m */; };
+5F00000A0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E06F0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.m */; };
+5F00000B0DE07715BC1ADD9D /* PREPrezzoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0710DE07715BC1ADD9D /* PREPrezzoViewController.m */; };
+5F00000C0DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0730DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.m */; };
+5F00000D0DE07715BC1ADD9D /* PRENotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0750DE07715BC1ADD9D /* PRENotificationsViewController.m */; };
+5F00000E0DE07715BC1ADD9D /* PRETabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0770DE07715BC1ADD9D /* PRETabsViewController.m */; };
+5F00000F0DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0790DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.m */; };
+5F0000100DE07715BC1ADD9D /* PRECampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E07B0DE07715BC1ADD9D /* PRECampaignViewController.m */; };
+5F0000110DE07715BC1ADD9D /* PREAdBackgroundShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E07D0DE07715BC1ADD9D /* PREAdBackgroundShapeView.m */; };
+5F0000120DE07715BC1ADD9D /* PREAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E07F0DE07715BC1ADD9D /* PREAdViewController.m */; };
+5F0000130DE07715BC1ADD9D /* PREDataSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0810DE07715BC1ADD9D /* PREDataSheet.m */; };
+5F0000140DE07715BC1ADD9D /* PREAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E0830DE07715BC1ADD9D /* PREAppDelegate.m */; };
+
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A65E02A18A3DF0000E413F6 /* prezzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prezzo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A65E02D18A3DF0000E413F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A65E02F18A3DF0000E413F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A65E03118A3DF0000E413F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A65E03518A3DF0000E413F6 /* prezzo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prezzo-Info.plist"; sourceTree = "<group>"; };
+		5A65E03718A3DF0000E413F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A65E03918A3DF0000E413F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A65E03B18A3DF0000E413F6 /* prezzo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prezzo-Prefix.pch"; sourceTree = "<group>"; };
+		5A65E03F18A3DF0000E413F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A65E04618A3DF0000E413F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+5A65E05C0DE07715BC1ADD9D /* PREDataSheetListData1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREDataSheetListData1.h; sourceTree = "<group>"; };
+5A65E05D0DE07715BC1ADD9D /* PREDataSheetListData1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREDataSheetListData1.m; sourceTree = "<group>"; };
+5A65E05E0DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAdvertiserBackgroundShapeView.h; sourceTree = "<group>"; };
+5A65E05F0DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAdvertiserBackgroundShapeView.m; sourceTree = "<group>"; };
+5A65E0600DE07715BC1ADD9D /* PREAdvertiserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAdvertiserImageView.h; sourceTree = "<group>"; };
+5A65E0610DE07715BC1ADD9D /* PREAdvertiserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAdvertiserImageView.m; sourceTree = "<group>"; };
+5A65E0620DE07715BC1ADD9D /* PREAdvertiserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAdvertiserViewController.h; sourceTree = "<group>"; };
+5A65E0630DE07715BC1ADD9D /* PREAdvertiserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAdvertiserViewController.m; sourceTree = "<group>"; };
+5A65E0640DE07715BC1ADD9D /* PREListItem1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREListItem1ViewController.h; sourceTree = "<group>"; };
+5A65E0650DE07715BC1ADD9D /* PREListItem1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREListItem1ViewController.m; sourceTree = "<group>"; };
+5A65E0660DE07715BC1ADD9D /* PREMeBackgroundShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMeBackgroundShapeView.h; sourceTree = "<group>"; };
+5A65E0670DE07715BC1ADD9D /* PREMeBackgroundShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMeBackgroundShapeView.m; sourceTree = "<group>"; };
+5A65E0680DE07715BC1ADD9D /* PREMePrezzologofullringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMePrezzologofullringView.h; sourceTree = "<group>"; };
+5A65E0690DE07715BC1ADD9D /* PREMePrezzologofullringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMePrezzologofullringView.m; sourceTree = "<group>"; };
+5A65E06A0DE07715BC1ADD9D /* PREMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMeViewController.h; sourceTree = "<group>"; };
+5A65E06B0DE07715BC1ADD9D /* PREMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMeViewController.m; sourceTree = "<group>"; };
+5A65E06C0DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREPrezzoBackgroundShapeView.h; sourceTree = "<group>"; };
+5A65E06D0DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREPrezzoBackgroundShapeView.m; sourceTree = "<group>"; };
+5A65E06E0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREPrezzoPrezzologoaloneView.h; sourceTree = "<group>"; };
+5A65E06F0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREPrezzoPrezzologoaloneView.m; sourceTree = "<group>"; };
+5A65E0700DE07715BC1ADD9D /* PREPrezzoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREPrezzoViewController.h; sourceTree = "<group>"; };
+5A65E0710DE07715BC1ADD9D /* PREPrezzoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREPrezzoViewController.m; sourceTree = "<group>"; };
+5A65E0720DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRENotificationsBackgroundShapeView.h; sourceTree = "<group>"; };
+5A65E0730DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRENotificationsBackgroundShapeView.m; sourceTree = "<group>"; };
+5A65E0740DE07715BC1ADD9D /* PRENotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRENotificationsViewController.h; sourceTree = "<group>"; };
+5A65E0750DE07715BC1ADD9D /* PRENotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRENotificationsViewController.m; sourceTree = "<group>"; };
+5A65E0760DE07715BC1ADD9D /* PRETabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRETabsViewController.h; sourceTree = "<group>"; };
+5A65E0770DE07715BC1ADD9D /* PRETabsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRETabsViewController.m; sourceTree = "<group>"; };
+5A65E0780DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRECampaignBackgroundShapeView.h; sourceTree = "<group>"; };
+5A65E0790DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRECampaignBackgroundShapeView.m; sourceTree = "<group>"; };
+5A65E07A0DE07715BC1ADD9D /* PRECampaignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRECampaignViewController.h; sourceTree = "<group>"; };
+5A65E07B0DE07715BC1ADD9D /* PRECampaignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRECampaignViewController.m; sourceTree = "<group>"; };
+5A65E07C0DE07715BC1ADD9D /* PREAdBackgroundShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAdBackgroundShapeView.h; sourceTree = "<group>"; };
+5A65E07D0DE07715BC1ADD9D /* PREAdBackgroundShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAdBackgroundShapeView.m; sourceTree = "<group>"; };
+5A65E07E0DE07715BC1ADD9D /* PREAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAdViewController.h; sourceTree = "<group>"; };
+5A65E07F0DE07715BC1ADD9D /* PREAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAdViewController.m; sourceTree = "<group>"; };
+5A65E0800DE07715BC1ADD9D /* PREDataSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREDataSheet.h; sourceTree = "<group>"; };
+5A65E0810DE07715BC1ADD9D /* PREDataSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREDataSheet.m; sourceTree = "<group>"; };
+5A65E0820DE07715BC1ADD9D /* PREAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAppDelegate.h; sourceTree = "<group>"; };
+5A65E0830DE07715BC1ADD9D /* PREAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAppDelegate.m; sourceTree = "<group>"; };
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A65E02718A3DF0000E413F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A65E03018A3DF0000E413F6 /* CoreGraphics.framework in Frameworks */,
+				5A65E03218A3DF0000E413F6 /* UIKit.framework in Frameworks */,
+				5A65E02E18A3DF0000E413F6 /* Foundation.framework in Frameworks */,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4D55E51C6DE1BE00900001 /* advertiser */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E05E0DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.h */,
+				5A65E05F0DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.m */,
+				5A65E0600DE07715BC1ADD9D /* PREAdvertiserImageView.h */,
+				5A65E0610DE07715BC1ADD9D /* PREAdvertiserImageView.m */,
+				5A65E0620DE07715BC1ADD9D /* PREAdvertiserViewController.h */,
+				5A65E0630DE07715BC1ADD9D /* PREAdvertiserViewController.m */,
+			);
+			name = "advertiser";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900002 /* List item 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E0640DE07715BC1ADD9D /* PREListItem1ViewController.h */,
+				5A65E0650DE07715BC1ADD9D /* PREListItem1ViewController.m */,
+			);
+			name = "List item 1";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900003 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E0660DE07715BC1ADD9D /* PREMeBackgroundShapeView.h */,
+				5A65E0670DE07715BC1ADD9D /* PREMeBackgroundShapeView.m */,
+				5A65E0680DE07715BC1ADD9D /* PREMePrezzologofullringView.h */,
+				5A65E0690DE07715BC1ADD9D /* PREMePrezzologofullringView.m */,
+				5A65E06A0DE07715BC1ADD9D /* PREMeViewController.h */,
+				5A65E06B0DE07715BC1ADD9D /* PREMeViewController.m */,
+			);
+			name = "me";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900004 /* prezzo */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E06C0DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.h */,
+				5A65E06D0DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.m */,
+				5A65E06E0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.h */,
+				5A65E06F0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.m */,
+				5A65E0700DE07715BC1ADD9D /* PREPrezzoViewController.h */,
+				5A65E0710DE07715BC1ADD9D /* PREPrezzoViewController.m */,
+			);
+			name = "prezzo";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900005 /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E0720DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.h */,
+				5A65E0730DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.m */,
+				5A65E0740DE07715BC1ADD9D /* PRENotificationsViewController.h */,
+				5A65E0750DE07715BC1ADD9D /* PRENotificationsViewController.m */,
+			);
+			name = "notifications";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900006 /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E0760DE07715BC1ADD9D /* PRETabsViewController.h */,
+				5A65E0770DE07715BC1ADD9D /* PRETabsViewController.m */,
+			);
+			name = "tabs";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900007 /* campaign */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E0780DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.h */,
+				5A65E0790DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.m */,
+				5A65E07A0DE07715BC1ADD9D /* PRECampaignViewController.h */,
+				5A65E07B0DE07715BC1ADD9D /* PRECampaignViewController.m */,
+			);
+			name = "campaign";
+			sourceTree = "<group>";
+		};
+		5A4D55E51C6DE1BE00900008 /* ad */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E07C0DE07715BC1ADD9D /* PREAdBackgroundShapeView.h */,
+				5A65E07D0DE07715BC1ADD9D /* PREAdBackgroundShapeView.m */,
+				5A65E07E0DE07715BC1ADD9D /* PREAdViewController.h */,
+				5A65E07F0DE07715BC1ADD9D /* PREAdViewController.m */,
+			);
+			name = "ad";
+			sourceTree = "<group>";
+		};
+
+		5A65E02118A3DF0000E413F6 = {
+			isa = PBXGroup;
+			children = (
+				5A65E03318A3DF0000E413F6 /* prezzo */,
+				5A65E02C18A3DF0000E413F6 /* Frameworks */,
+				5A65E02B18A3DF0000E413F6 /* Products */,
+
+			);
+			sourceTree = "<group>";
+		};
+		5A65E02B18A3DF0000E413F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E02A18A3DF0000E413F6 /* prezzo.app */,
+
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A65E02C18A3DF0000E413F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+
+				5A65E02D18A3DF0000E413F6 /* Foundation.framework */,
+				5A65E02F18A3DF0000E413F6 /* CoreGraphics.framework */,
+				5A65E03118A3DF0000E413F6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A65E03318A3DF0000E413F6 /* prezzo */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D55E51C6DE1BE00900001 /* advertiser */,
+				5A4D55E51C6DE1BE00900002 /* List item 1 */,
+				5A4D55E51C6DE1BE00900003 /* me */,
+				5A4D55E51C6DE1BE00900004 /* prezzo */,
+				5A4D55E51C6DE1BE00900005 /* notifications */,
+				5A4D55E51C6DE1BE00900006 /* tabs */,
+				5A4D55E51C6DE1BE00900007 /* campaign */,
+				5A4D55E51C6DE1BE00900008 /* ad */,
+				5A65E05C0DE07715BC1ADD9D /* PREDataSheetListData1.h */,
+				5A65E05D0DE07715BC1ADD9D /* PREDataSheetListData1.m */,
+				5A65E0800DE07715BC1ADD9D /* PREDataSheet.h */,
+				5A65E0810DE07715BC1ADD9D /* PREDataSheet.m */,
+				5A65E0820DE07715BC1ADD9D /* PREAppDelegate.h */,
+				5A65E0830DE07715BC1ADD9D /* PREAppDelegate.m */,
+
+				5A65E03F18A3DF0000E413F6 /* Images.xcassets */,
+				5A65E03418A3DF0000E413F6 /* Supporting Files */,
+			);
+			path = "prezzo";
+			sourceTree = "<group>";
+		};
+		5A65E03418A3DF0000E413F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+
+				5A65E03518A3DF0000E413F6 /* prezzo-Info.plist */,
+				5A65E03618A3DF0000E413F6 /* InfoPlist.strings */,
+				5A65E03918A3DF0000E413F6 /* main.m */,
+				5A65E03B18A3DF0000E413F6 /* prezzo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A65E02918A3DF0000E413F6 /* prezzo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A65E05618A3DF0000E413F6 /* Build configuration list for PBXNativeTarget "prezzo" */;
+			buildPhases = (
+				5A65E02618A3DF0000E413F6 /* Sources */,
+				5A65E02718A3DF0000E413F6 /* Frameworks */,
+				5A65E02818A3DF0000E413F6 /* Resources */,
+
+			);
+			buildRules = (
+			);
+			dependencies = (
+
+			);
+			name = "prezzo";
+			productName = "prezzo";
+			productReference = 5A65E02A18A3DF0000E413F6 /* prezzo.app */;
+			productType = "com.apple.product-type.application";
+		};
+
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A65E02218A3DF0000E413F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRE;
+				LastUpgradeCheck = 0700;
+                ORGANIZATIONNAME = "NeontoStudioUser";
+
+			};
+			buildConfigurationList = 5A65E02518A3DF0000E413F6 /* Build configuration list for PBXProject "prezzo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A65E02118A3DF0000E413F6;
+			productRefGroup = 5A65E02B18A3DF0000E413F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A65E02918A3DF0000E413F6 /* prezzo */,
+
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A65E02818A3DF0000E413F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A65E03818A3DF0000E413F6 /* InfoPlist.strings in Resources */,
+				5A65E04018A3DF0000E413F6 /* Images.xcassets in Resources */,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A65E02618A3DF0000E413F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A65E03A18A3DF0000E413F6 /* main.m in Sources */,
+				5F0000120DE07715BC1ADD9D /* PREAdViewController.m in Sources */,
+				5F00000E0DE07715BC1ADD9D /* PRETabsViewController.m in Sources */,
+				5F0000040DE07715BC1ADD9D /* PREAdvertiserViewController.m in Sources */,
+				5F00000A0DE07715BC1ADD9D /* PREPrezzoPrezzologoaloneView.m in Sources */,
+				5F00000D0DE07715BC1ADD9D /* PRENotificationsViewController.m in Sources */,
+				5F0000090DE07715BC1ADD9D /* PREPrezzoBackgroundShapeView.m in Sources */,
+				5F00000F0DE07715BC1ADD9D /* PRECampaignBackgroundShapeView.m in Sources */,
+				5F0000130DE07715BC1ADD9D /* PREDataSheet.m in Sources */,
+				5F00000B0DE07715BC1ADD9D /* PREPrezzoViewController.m in Sources */,
+				5F0000070DE07715BC1ADD9D /* PREMePrezzologofullringView.m in Sources */,
+				5F0000100DE07715BC1ADD9D /* PRECampaignViewController.m in Sources */,
+				5F0000140DE07715BC1ADD9D /* PREAppDelegate.m in Sources */,
+				5F0000080DE07715BC1ADD9D /* PREMeViewController.m in Sources */,
+				5F0000030DE07715BC1ADD9D /* PREAdvertiserImageView.m in Sources */,
+				5F0000110DE07715BC1ADD9D /* PREAdBackgroundShapeView.m in Sources */,
+				5F0000060DE07715BC1ADD9D /* PREMeBackgroundShapeView.m in Sources */,
+				5F0000020DE07715BC1ADD9D /* PREAdvertiserBackgroundShapeView.m in Sources */,
+				5F0000050DE07715BC1ADD9D /* PREListItem1ViewController.m in Sources */,
+				5F0000010DE07715BC1ADD9D /* PREDataSheetListData1.m in Sources */,
+				5F00000C0DE07715BC1ADD9D /* PRENotificationsBackgroundShapeView.m in Sources */,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A65E03618A3DF0000E413F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A65E03718A3DF0000E413F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A65E05418A3DF0000E413F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A65E05518A3DF0000E413F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A65E05718A3DF0000E413F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+                FRAMEWORK_SEARCH_PATHS = (
+                  "$(inherited)",
+                  "$(PROJECT_DIR)/prezzo",
+                );
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "prezzo/prezzo-Prefix.pch";
+				INFOPLIST_FILE = "prezzo/prezzo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonto.exportedByUser-s2305552816857725.prezzo;
+                IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A65E05818A3DF0000E413F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+                FRAMEWORK_SEARCH_PATHS = (
+                  "$(inherited)",
+                  "$(PROJECT_DIR)/prezzo",
+                );
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "prezzo/prezzo-Prefix.pch";
+				INFOPLIST_FILE = "prezzo/prezzo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonto.exportedByUser-s2305552816857725.prezzo;
+                IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A65E02518A3DF0000E413F6 /* Build configuration list for PBXProject "prezzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A65E05418A3DF0000E413F6 /* Debug */,
+				5A65E05518A3DF0000E413F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A65E05618A3DF0000E413F6 /* Build configuration list for PBXNativeTarget "prezzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A65E05718A3DF0000E413F6 /* Debug */,
+				5A65E05818A3DF0000E413F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A65E02218A3DF0000E413F6 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.neonto.exportedByUser_s2305552816857725.Prezzo.NotificationsFragment" >
+        <com.neonto.exportedByUser_s2305552816857725.Prezzo.NotificationsBackgroundShapeView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mBackgroundShape"
+            android:layout_marginLeft="0.0mm"
+            android:layout_marginTop="0.0mm"
+        />
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbutton_190387"
+            android:textColor="@color/action"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="15.6dp"
+            android:background="@drawable/notifications_button"
+            android:paddingLeft="4.5px"
+            android:paddingRight="4.5px"
+            android:id="@+id/mButton"
+            android:layout_marginLeft="32.72mm"
+            android:layout_marginTop="64.51mm"
+        />
+    
+</RelativeLayout>
